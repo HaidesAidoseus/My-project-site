@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import Header from './Components/Header'
-import Navbar from './Components/Navbar'
-import Profile from './Components/Profile'
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Profile from './components/Profile';
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
       <Header />
       <Navbar />
       <Profile />
-    </div>
-  );
+    </div>);
 }
+
 export default App;
